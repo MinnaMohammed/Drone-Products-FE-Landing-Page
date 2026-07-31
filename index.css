@@ -44,6 +44,11 @@ p {
   color: var(--grey);
 }
 
+::selection {
+  background-color: var(--primary);
+  color: white;
+}
+
 /* ---------------REUSBLE STYLES-------------- */
 .container {
   max-width: 1200px;
@@ -697,6 +702,26 @@ border-radius: 0px 0px 30px 30px;
   height: 100%;
   background: #fbbf24;
   border-radius: 10px;
+}
+
+.l-bar-width {
+  width: 78%
+}
+
+.m-bar-width {
+  width: 15%;
+}
+
+.sm-bar-width {
+  width: 5%;
+}
+
+.xsm-bar-width {
+  width: 1.5%;
+}
+
+.xxsm-bar-width {
+  width: 0.5%;
 }
 
 .stat-boxes {
